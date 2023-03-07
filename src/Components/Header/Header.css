@@ -1,0 +1,17 @@
+.toDo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+}
+p{
+    color: azure;
+    font-size: 2rem;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.todo-logo{
+    margin-right: 30px;
+}
