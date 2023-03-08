@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './FormLogIn.css'
 
 export default function FormLogIn() {
@@ -21,8 +22,8 @@ export default function FormLogIn() {
       <div className='todo-form' >
           <h3>To-Do-App</h3>
           <p className='login-text'>Login</p>
-          <label htmlFor="">Email</label>
-          <br />
+          <label htmlFor="">Email
+          </label>
           <input 
             type="email" 
             name='email'
@@ -31,7 +32,6 @@ export default function FormLogIn() {
           />
           <br />
           <label htmlFor="">Contraseña</label>
-          <br />
           <input 
             type="text" 
             name='password'
@@ -41,7 +41,7 @@ export default function FormLogIn() {
           <br />
           <button className='login-button' type='submit'>Ingresar</button>
       </div>
-      <a href="">¿No tiene una cuenta? Registrate aqui</a>
+      <Link to="/sing-up">¿No tiene una cuenta? Registrate aqui</Link>
     </div>
   )
 }
