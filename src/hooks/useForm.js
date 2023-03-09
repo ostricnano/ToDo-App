@@ -15,8 +15,8 @@ const useForm = (initialData, onValidate) => {
     }
 
     const sendUser={
-        nombre: user.nombre,
-        apellido: user.apellido,
+        firstName: user.nombre,
+        lastName: user.apellido,
         email: user.email,
         password: user.password
     }
@@ -48,3 +48,7 @@ const useForm = (initialData, onValidate) => {
     return {user, errors, loading, handleChange, handleSubmit}
 }
 export default useForm
+
+// {
+//     "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9zdHJpY21hcmlhbm9AZ21haWwuY29tIiwiaWQiOjE0LCJpYXQiOjE2NzgzNzQ0NzB9.J7uAuxwD5B10uD_ilhGPujLYZYVSC_kSfCTa6UPM6mg"
+// }
