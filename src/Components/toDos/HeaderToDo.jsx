@@ -21,6 +21,7 @@ export default function HeaderToDo() {
             console.log(data)
             setUserInfo(data)
         })
+        .catch(err => console.log(err));
     },[])
 
   return (

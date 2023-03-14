@@ -1,0 +1,21 @@
+.toDo-task-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 85vw;
+    height: 125px;
+    background-color: black;
+    border-radius: 15px;
+}
+.todo-task-input{
+    width: 70%;
+    height: 40px;
+    margin-top: 1rem; 
+}
+.add-task-button{
+    width: 20%;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(3, 108, 228);
+}
