@@ -1,0 +1,25 @@
+
+.li-taskList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85vw;
+    background-color: black;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.description{
+    margin-left: 1rem;
+    justify-content: center;
+}
+.buttons{
+    margin-right: 1rem;
+    
+}
+.button{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin:5px ;
+}

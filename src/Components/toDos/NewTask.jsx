@@ -9,7 +9,8 @@ function NewTask({newTask, handleChange, handleSubmit}) {
             <input 
                 className='todo-task-input'  
                 placeholder="To-Do-Task" 
-                name='task'
+                type='Text'
+                name='title'
                 value={newTask.title || ''}
                 onChange={handleChange}
             />

@@ -1,16 +1,24 @@
 import React from 'react'
+import './TaskList.css'
 
-function TaskList(allTasks) {
+function TaskList({allTasks}) {
 
   return (
-    <ul>
-        {allTasks?.map(task => (
-            <li>
-                <h3>{task.title}</h3>
-            </li>
+    <div className='taskList'>
+        {allTasks.map((task) => (
+          <li className='li-taskList' key={task.id}>
+            <div>
+              <h4 className='description'>{task.description}</h4>
+            </div>
+            <div className='buttons'>
+              <button className='button'>X</button>
+              <button className='button'>S</button>
+            </div>
+          </li>
         ))
         }
-    </ul>
+    </div>
+    
   )
 }
 
